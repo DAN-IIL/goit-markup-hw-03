@@ -39,8 +39,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    width: 1170px;
-    /* outline: 2px solid tomato; */
+    width: 1200px;
+    outline: 2px solid tomato;
 }
 
 /* header */
@@ -92,6 +92,7 @@ img {
 .header-list {
     display: flex;
     margin-left: 93px;
+    width: 281px;
 }
 
 .header-list .item {
@@ -122,6 +123,7 @@ img {
 .header-address-list {
     display: flex;
     margin-left: auto;
+    width: 307px;
 }
 
 .header-address-list .item + .item {
@@ -240,6 +242,10 @@ img {
 }
 
 /* our-work-section */
+.main-our-work {
+    padding-top: 0;
+}
+
 .work-list {
     display: flex;
 }
@@ -265,6 +271,8 @@ img {
 
 /* team-section */
 .main-team {
+    padding-top: 0;
+
     background-color: #F5F4FA;
 }
 
@@ -359,13 +367,11 @@ img {
 .filter-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    margin: 0;
 }
 
 .filter-list {
     display: flex;
-    margin: 0;
-    padding: 0px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -399,9 +405,7 @@ img {
 
 /* Роботи */
 .port-work-section {
-    padding-top: 94px;
     padding-bottom: 94px;
-    margin: 0;
 }
 
 .port-work-list {
@@ -428,6 +432,12 @@ img {
     text-decoration: none;
 }
 
+.filter-div {
+    margin: 0;
+    padding: 20px 24px;
+    width: 370px;
+}
+
 .filter-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -437,6 +447,8 @@ img {
 }
 
 .filter-text {
+    margin: 0;
+
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87;
