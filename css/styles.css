@@ -112,6 +112,8 @@ img {
 }
 
 .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -135,6 +137,8 @@ img {
 
 .address-mail,
 .address-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -172,6 +176,8 @@ img {
 
 /* hero-section */
 .hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
 }
@@ -207,11 +213,6 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-}
-
-.main-hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 /* feature-section */
@@ -306,8 +307,12 @@ img {
     text-align: center;
 }
 
-.member-team-title {
+.team-div {
     margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.member-team-title {
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -319,7 +324,6 @@ img {
 
 .member-team-text {
     margin: 0px;
-    padding-bottom: 30px;
 
     color: var(--primary-text-color);
     text-align: center;
@@ -437,9 +441,9 @@ img {
 }
 
 .filter-div {
-    border-left: 1px;
-    border-right: 1px;
-    border-bottom: 1px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     padding: 20px 24px;
     width: 370px;
 }
